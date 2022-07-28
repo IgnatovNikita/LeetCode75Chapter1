@@ -19,7 +19,7 @@ public class Main {
             right += nums[i];
         }
         if (right == 0) return 0;
-        right -= nums[0];
+
         for (int i = 1; i < nums.length; i++){
             left += nums[i-1];
             right -= nums[i];
