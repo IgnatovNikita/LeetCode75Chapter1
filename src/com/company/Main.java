@@ -33,7 +33,7 @@ public class Main {
             Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i]).
             Return the running sum of nums.
         */
-        System.out.println(Arrays.toString(runningSum(new int[]{1, 2, 3, 4})));
+        //System.out.println(Arrays.toString(runningSum(new int[]{1, 2, 3, 4})));
 
         /*
             Given an array of integers nums, calculate the pivot index of this array.
@@ -41,7 +41,10 @@ public class Main {
             If the index is on the left edge of the array, then the left sum is 0 because there are no elements to the left. This also applies to the right edge of the array.
             Return the leftmost pivot index. If no such index exists, return -1.
          */
-        System.out.println(pivotIndex(new int[]{2,1,-1}));
+        //System.out.println(pivotIndex(new int[]{2,1,-1}));
+            IsomorphicStrings is = new IsomorphicStrings();
+        System.out.println(is.isIsomorphic("foo", "bar"));
+
 
     }
 }
