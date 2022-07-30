@@ -42,8 +42,11 @@ public class Main {
             Return the leftmost pivot index. If no such index exists, return -1.
          */
         //System.out.println(pivotIndex(new int[]{2,1,-1}));
-            IsomorphicStrings is = new IsomorphicStrings();
-        System.out.println(is.isIsomorphic("foo", "bar"));
+      //      IsomorphicStrings is = new IsomorphicStrings();
+        //System.out.println(is.isIsomorphic("foo", "bar"));
+    IsSubsequence is = new IsSubsequence();
+        System.out.println(is.isSubsequence("abc","ahbgdc"));
+        System.out.println(is.isSubsequence("aaaaaa", "bbaaaa"));
 
 
     }
