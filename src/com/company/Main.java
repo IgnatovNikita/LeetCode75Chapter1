@@ -44,10 +44,17 @@ public class Main {
         //System.out.println(pivotIndex(new int[]{2,1,-1}));
       //      IsomorphicStrings is = new IsomorphicStrings();
         //System.out.println(is.isIsomorphic("foo", "bar"));
-    IsSubsequence is = new IsSubsequence();
+   /* IsSubsequence is = new IsSubsequence();
         System.out.println(is.isSubsequence("abc","ahbgdc"));
         System.out.println(is.isSubsequence("aaaaaa", "bbaaaa"));
+    */
+        ListNode list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
+        ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
+        ListNode res = new MergeTwoSortedLists().mergeTwoLists(null, new ListNode(0));
 
-
+        while (res != null){
+            System.out.println(res.val);
+            res = res.next;
+        }
     }
 }
