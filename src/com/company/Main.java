@@ -48,13 +48,19 @@ public class Main {
         System.out.println(is.isSubsequence("abc","ahbgdc"));
         System.out.println(is.isSubsequence("aaaaaa", "bbaaaa"));
     */
-        ListNode list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
-        ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
+            ListNode list1 = new ListNode(1, new ListNode(3, new ListNode(4)));
+        /*ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
         ListNode res = new MergeTwoSortedLists().mergeTwoLists(null, new ListNode(0));
 
+
+         */
+        ListNode res = new ReverseLinkedList().reverseList(list1);
         while (res != null){
             System.out.println(res.val);
             res = res.next;
         }
+
+
+
     }
 }
