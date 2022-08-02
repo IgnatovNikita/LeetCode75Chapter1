@@ -54,11 +54,14 @@ public class Main {
 
 
          */
-        ListNode res = new ReverseLinkedList().reverseList(list1);
+        /*ListNode res = new ReverseLinkedList().reverseList(list1);
         while (res != null){
             System.out.println(res.val);
             res = res.next;
         }
+
+         */
+        System.out.println(new LongestPalindrome().longestPalindrome("abccccdd"));
 
 
 
