@@ -73,8 +73,8 @@ public class Main {
         System.out.println(new LinkedListCycleII().detectCycle(head).val);
 
         */
-        System.out.println(new BinarySearch().search(new int[]{-1, 0, 3, 5, 9, 12}, 9));
-
+       // System.out.println(new BinarySearch().search(new int[]{-1, 0, 3, 5, 9, 12}, 9));
+        System.out.println(new FirstBadVersion().firstBadVersion(5));
 
     }
 }
