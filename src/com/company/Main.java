@@ -62,7 +62,7 @@ public class Main {
 
          */
        // System.out.println(new LongestPalindrome().longestPalindrome("abccccdd"));
-        ListNode head = new ListNode(3);
+       /* ListNode head = new ListNode(3);
         ListNode cikl = new ListNode(2);
         ListNode cikl2 = new ListNode(0);
         ListNode cikl3 = new ListNode(4);
@@ -71,6 +71,9 @@ public class Main {
         cikl2.next = cikl3;
         cikl3.next = cikl;
         System.out.println(new LinkedListCycleII().detectCycle(head).val);
+
+        */
+        System.out.println(new BinarySearch().search(new int[]{-1, 0, 3, 5, 9, 12}, 9));
 
 
     }
