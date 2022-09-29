@@ -74,7 +74,10 @@ public class Main {
 
         */
        // System.out.println(new BinarySearch().search(new int[]{-1, 0, 3, 5, 9, 12}, 9));
-        System.out.println(new FirstBadVersion().firstBadVersion(5));
-
+       // System.out.println(new FirstBadVersion().firstBadVersion(5));
+        TreeNode tr = new TreeNode(2, new TreeNode(1), new TreeNode(3));
+        System.out.println(new ValidateBinarySearchTree().isValidBST(tr));
+        tr = new TreeNode(5, new TreeNode(4), new TreeNode( 6, new TreeNode(3), new TreeNode(7)));
+        System.out.println(new ValidateBinarySearchTree().isValidBST(tr));
     }
 }
