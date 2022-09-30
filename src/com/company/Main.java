@@ -48,7 +48,7 @@ public class Main {
         System.out.println(is.isSubsequence("abc","ahbgdc"));
         System.out.println(is.isSubsequence("aaaaaa", "bbaaaa"));
     */
-            ListNode list1 = new ListNode(1, new ListNode(3, new ListNode(4)));
+          //  ListNode list1 = new ListNode(1, new ListNode(3, new ListNode(4)));
         /*ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
         ListNode res = new MergeTwoSortedLists().mergeTwoLists(null, new ListNode(0));
 
@@ -75,9 +75,10 @@ public class Main {
         */
        // System.out.println(new BinarySearch().search(new int[]{-1, 0, 3, 5, 9, 12}, 9));
        // System.out.println(new FirstBadVersion().firstBadVersion(5));
-       /* TreeNode tr = new TreeNode(2, new TreeNode(1), new TreeNode(3));
-        System.out.println(new ValidateBinarySearchTree().isValidBST(tr));
-        tr = new TreeNode(5, new TreeNode(4), new TreeNode( 6, new TreeNode(3), new TreeNode(7)));
+        TreeNode tr = new TreeNode(2, new TreeNode(1), new TreeNode(3));
+       // System.out.println(new ValidateBinarySearchTree().isValidBST(tr));
+        System.out.println( new LowestCommonAncestorofaBinarySearchTree().lowestCommonAncestor(tr,new TreeNode(1) ,new TreeNode(3)));
+        /* tr = new TreeNode(5, new TreeNode(4), new TreeNode( 6, new TreeNode(3), new TreeNode(7)));
         System.out.println(new ValidateBinarySearchTree().isValidBST(tr));
 
         */
