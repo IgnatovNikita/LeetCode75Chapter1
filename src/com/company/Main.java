@@ -86,11 +86,12 @@ public class Main {
                 {'1','1','1','1','0'},
         {'1','1','0','1','0'},
     {'1','1','0','0','0'},
-        {'0','0','0','0','0'}
+        {'1','0','1','0','1'}
 };
-        //System.out.println(new NumberofIslands().numIslands(grid));
+        System.out.println(new NumberofIslands().numIslands(grid));
+
         //System.out.println(new FibonacciNumber().fib(4));
-        System.out.println(new MinCostClimbingStairs().minCostClimbingStairs(new int[]{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}));
+        //System.out.println(new MinCostClimbingStairs().minCostClimbingStairs(new int[]{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}));
         //int[][] image = {{1,1,1},{1,1,0},{1,0,1}};
         //System.out.println(Arrays.deepToString(new FloodFill().floodFill(image, 1, 1, 2)));
     }
