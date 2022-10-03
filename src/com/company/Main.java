@@ -82,8 +82,15 @@ public class Main {
         System.out.println(new ValidateBinarySearchTree().isValidBST(tr));
 
         */
-
-        int[][] image = {{1,1,1},{1,1,0},{1,0,1}};
-        System.out.println(Arrays.deepToString(new FloodFill().floodFill(image, 1, 1, 2)));
+        char[][] grid = {
+                {'1','1','1','1','0'},
+        {'1','1','0','1','0'},
+    {'1','1','0','0','0'},
+        {'0','0','0','0','0'}
+};
+        //System.out.println(new NumberofIslands().numIslands(grid));
+        System.out.println(new FibonacciNumber().fib(4));
+        //int[][] image = {{1,1,1},{1,1,0},{1,0,1}};
+        //System.out.println(Arrays.deepToString(new FloodFill().floodFill(image, 1, 1, 2)));
     }
 }
