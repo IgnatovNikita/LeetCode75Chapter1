@@ -90,7 +90,10 @@ public class Main {
 };
       //  System.out.println(new NumberofIslands().numIslands(grid));
         //System.out.println(new BackspaceStringCompare().backspaceCompare("#bb#c", "ad#c"));
-        System.out.println(new LastStoneWeight().lastStoneWeight(new int[]{1,3}));
+        //System.out.println(new LastStoneWeight().lastStoneWeight(new int[]{1,3}));
+        System.out.println(new BullsandCows().getHint( "1123","0111"));
+
+        System.out.println(new BullsandCows().getHint( "1807","7810"));
         //System.out.println(new FibonacciNumber().fib(4));
         //System.out.println(new MinCostClimbingStairs().minCostClimbingStairs(new int[]{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}));
         //int[][] image = {{1,1,1},{1,1,0},{1,0,1}};
